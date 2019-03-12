@@ -4,7 +4,7 @@ Code will appear here after some improves. Right now u can download Polish versi
 
 Authors: Krzysztof Zawisła, Jakub Pawelec.  
 Used NPM's modules:  
--electron-packager  
--electron  
--electron-log  
--update-electron-app  
+  - electron-packager  
+  - electron  
+  - electron-log  
+  - update-electron-app  
