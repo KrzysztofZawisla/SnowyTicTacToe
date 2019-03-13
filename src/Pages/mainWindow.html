@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl-PL" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/mainWindowStyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="dragbar"></div>
+    <div id="game-wrapper">
+      <div class="pool" data-row="0" data-column="0"></div>
+      <div class="pool" data-row="0" data-column="1"></div>
+      <div class="pool" data-row="0" data-column="2"></div>
+
+      <div class="pool" data-row="1" data-column="0"></div>
+      <div class="pool" data-row="1" data-column="1"></div>
+      <div class="pool" data-row="1" data-column="2"></div>
+
+      <div class="pool" data-row="2" data-column="0"></div>
+      <div class="pool" data-row="2" data-column="1"></div>
+      <div class="pool" data-row="2" data-column="2"></div>
+    </div>
+    <div id="game-end">
+      <span id="player-winner"></span>
+      <div id="reset">Zagrasz jeszcze raz?</div>
+      <div id="quit">Wyjdź</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../JS/dragbar.js"></script>
+  <script type="text/javascript" src="../JS/game.js"></script>
+  <script type="text/javascript" src="../JS/end-screen.js"></script>
+</body>
+</html>
