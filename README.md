@@ -1,6 +1,19 @@
 # SnowyTicTacToe
 
-Code will appear here after some improves. Right now u can download Polish version of application from this link -> https://github.com/KrzysztofZawisla/SnowyTicTacToe/releases/
+## Description
+Simple Tic Tac Toe game created in JavaScript with electron. Right now we are working on English version of game and way to change language in game.
+
+## Shortcuts
+On Windows, Linux:
+  - Ctrl+Q - Quit
+  - Ctrl+R - Reload
+  - Ctrl+Shift+R - App restart
+On Mac:
+  - Command+Q - Quit
+  - Command+R - Reload
+  - Command+Shift+R - App restart
+  
+Polish version download -> https://github.com/KrzysztofZawisla/SnowyTicTacToe/releases/
 
 Authors: Krzysztof Zawisła, Jakub Pawelec.  
 Used NPM's modules:  
@@ -8,3 +21,6 @@ Used NPM's modules:
   - electron  
   - electron-log  
   - update-electron-app  
+  
+The idea of comparing arrays we took from this video -> https://www.youtube.com/watch?v=iRK-BnscnEM. On this example we improved code.
+  
