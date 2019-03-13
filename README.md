@@ -8,6 +8,7 @@ On Windows, Linux:
   - Ctrl+Q - Quit
   - Ctrl+R - Reload
   - Ctrl+Shift+R - App restart
+  
 On Mac:
   - Command+Q - Quit
   - Command+R - Reload
