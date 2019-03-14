@@ -1,7 +1,7 @@
 # SnowyTicTacToe
 
 ## Description
-Simple Tic Tac Toe game created in JavaScript with electron. Right now we are working on English version of game and way to change language in game.
+Simple Tic Tac Toe game created in JavaScript with electron. Right now we are working on English version of the game and the way to change language in game.
 
 ## Shortcuts
 On Windows, Linux:
