@@ -16,7 +16,7 @@ On Mac:
   
 Polish version download -> https://github.com/KrzysztofZawisla/SnowyTicTacToe/releases/
 
-Programmer: Krzysztof Zawisła
+Programmer: Krzysztof Zawisła  
 Responsible for logic: Jakub Pawelec.  
 Used NPM's modules:  
   - electron-packager  
