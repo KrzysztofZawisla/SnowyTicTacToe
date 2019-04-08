@@ -1,3 +1,4 @@
+const Mousetrap = require("mousetrap");
 const player1 = '<i class="fas fa-times"></i>';
 const player2 = '<i class="fas fa-circle"></i>';
 const gameWrapper = document.getElementById("game-wrapper");
@@ -63,3 +64,31 @@ function checkScore() {
   });
   return winner;
 }
+
+Mousetrap.bind("7", () => {
+  pools[0].click();
+});
+Mousetrap.bind("8", () => {
+  pools[1].click();
+});
+Mousetrap.bind("9", () => {
+  pools[2].click();
+});
+Mousetrap.bind("4", () => {
+  pools[3].click();
+});
+Mousetrap.bind("5", () => {
+  pools[4].click();
+});
+Mousetrap.bind("6", () => {
+  pools[5].click();
+});
+Mousetrap.bind("1", () => {
+  pools[6].click();
+});
+Mousetrap.bind("2", () => {
+  pools[7].click();
+});
+Mousetrap.bind("3", () => {
+  pools[8].click();
+});

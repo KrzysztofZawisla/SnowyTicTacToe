@@ -1,11 +1,6 @@
 const electron = require("electron");
 const url = require("url");
 const path = require("path");
-const log = require("electron-log");
-const updater = require("update-electron-app")({
-  repo: "KrzysztofZawisla/SnowyTicTacToe",
-  updateInterval: "24 hours"
-});
 
 const { app, BrowserWindow, Menu, globalShortcut, ipcMain } = electron;
 
