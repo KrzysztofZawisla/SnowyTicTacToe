@@ -66,29 +66,29 @@ function checkScore() {
 }
 
 Mousetrap.bind("7", () => {
-  pools[0].click();
+  winner == null ? pools[0].click() : null;
 });
 Mousetrap.bind("8", () => {
-  pools[1].click();
+  winner == null ? pools[1].click() : null;
 });
 Mousetrap.bind("9", () => {
-  pools[2].click();
+  winner == null ? pools[2].click() : null;
 });
 Mousetrap.bind("4", () => {
-  pools[3].click();
+  winner == null ? pools[3].click() : null;
 });
 Mousetrap.bind("5", () => {
-  pools[4].click();
+  winner == null ? pools[4].click() : null;
 });
 Mousetrap.bind("6", () => {
-  pools[5].click();
+  winner == null ? pools[5].click() : null;
 });
 Mousetrap.bind("1", () => {
-  pools[6].click();
+  winner == null ? pools[6].click() : null;
 });
 Mousetrap.bind("2", () => {
-  pools[7].click();
+  winner == null ? pools[7].click() : null;
 });
 Mousetrap.bind("3", () => {
-  pools[8].click();
+  winner == null ? pools[8].click() : null;
 });
