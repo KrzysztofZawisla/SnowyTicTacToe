@@ -21,8 +21,7 @@ Responsible for logic: Jakub Pawelec.
 Used NPM's modules:  
   - electron-packager  
   - electron  
-  - electron-log  
-  - update-electron-app  
+  - mousetrap
   
 The idea of comparing arrays we took from this video -> https://www.youtube.com/watch?v=iRK-BnscnEM. On this example we improved code.
   
